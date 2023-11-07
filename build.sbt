@@ -18,7 +18,7 @@ resolvers ++= Seq(
   Resolver.mavenLocal
 )
 
-addSbtPlugin("com.typesafe.sbt" % "sbt-js-engine" % "1.2.2")
+addSbtPlugin("com.typesafe.sbt" % "sbt-js-engine" % "1.1.3")
 
 scriptedLaunchOpts += ("-Dproject.version=" + version.value)
 
